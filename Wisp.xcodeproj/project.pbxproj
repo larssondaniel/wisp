@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B40976319C0A0E1004817C7 /* Mark Simonson - Proxima Nova Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B40976219C0A0E1004817C7 /* Mark Simonson - Proxima Nova Regular.otf */; };
 		6B8147F919C51DEE00E6FAE9 /* NSDate+DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8147F819C51DEE00E6FAE9 /* NSDate+DateTools.m */; };
 		6BBC3F0B19C6499500346896 /* MCOMessageView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6BBC3F0919C6499500346896 /* MCOMessageView.mm */; };
 		6BBC3F0C19C6499500346896 /* MCOMessageViewScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 6BBC3F0A19C6499500346896 /* MCOMessageViewScript.js */; };
 		6BCEFEE419CD218800F37B0C /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCEFEDB19CD214E00F37B0C /* libMailCore-ios.a */; };
-		6BD6B0FE19C4E38500AD0554 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6B0FC19C4E38500AD0554 /* ProximaNova-Light.otf */; };
-		6BD6B0FF19C4E38500AD0554 /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6B0FD19C4E38500AD0554 /* ProximaNova-Semibold.otf */; };
+		6BCEFEFF19CD2ED600F37B0C /* Mark Simonson - Proxima Nova Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6BCEFEF719CD2ED600F37B0C /* Mark Simonson - Proxima Nova Regular.otf */; };
+		6BCEFF0019CD2ED600F37B0C /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6BCEFEF819CD2ED600F37B0C /* ProximaNova-Light.otf */; };
+		6BCEFF0119CD2ED600F37B0C /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6BCEFEF919CD2ED600F37B0C /* ProximaNova-Semibold.otf */; };
+		6BCEFF0219CD2ED600F37B0C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BCEFEFB19CD2ED600F37B0C /* Default-568h@2x.png */; };
+		6BCEFF0319CD2ED600F37B0C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BCEFEFC19CD2ED600F37B0C /* Default.png */; };
+		6BCEFF0419CD2ED600F37B0C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BCEFEFD19CD2ED600F37B0C /* Default@2x.png */; };
+		6BCEFF0519CD2ED600F37B0C /* feather@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BCEFEFE19CD2ED600F37B0C /* feather@2x.png */; };
 		6BE2B1E519C4EAC9001D1C1B /* feather@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE2B1E419C4EAC9001D1C1B /* feather@2x.png */; };
 		6BEA6F1A19C5011200E2EAA7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEA6F1919C5011200E2EAA7 /* CoreData.framework */; };
 		6BEA6F2419C505E000E2EAA7 /* CoreDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA6F2319C505E000E2EAA7 /* CoreDataService.m */; };
@@ -26,9 +30,6 @@
 		AB9EAE10170368F000D750C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB9EAE0E170368F000D750C7 /* InfoPlist.strings */; };
 		AB9EAE12170368F000D750C7 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB9EAE11170368F000D750C7 /* main.mm */; };
 		AB9EAE16170368F000D750C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9EAE15170368F000D750C7 /* AppDelegate.m */; };
-		AB9EAE18170368F000D750C7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9EAE17170368F000D750C7 /* Default.png */; };
-		AB9EAE1A170368F000D750C7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9EAE19170368F000D750C7 /* Default@2x.png */; };
-		AB9EAE1C170368F000D750C7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9EAE1B170368F000D750C7 /* Default-568h@2x.png */; };
 		AB9EAE1F170368F000D750C7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9EAE1D170368F000D750C7 /* MainStoryboard.storyboard */; };
 		AB9EAE22170368F000D750C7 /* WSPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9EAE21170368F000D750C7 /* WSPMasterViewController.m */; };
 		AB9EAE3617036FD700D750C7 /* WSPSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9EAE3417036FD600D750C7 /* WSPSettingsViewController.m */; };
@@ -92,7 +93,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6B40976219C0A0E1004817C7 /* Mark Simonson - Proxima Nova Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Regular.otf"; sourceTree = "<group>"; };
 		6B8147F719C51DEE00E6FAE9 /* NSDate+DateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateTools.h"; sourceTree = "<group>"; };
 		6B8147F819C51DEE00E6FAE9 /* NSDate+DateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateTools.m"; sourceTree = "<group>"; };
 		6BB798A019C5210C006BC672 /* DTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTConstants.h; sourceTree = "<group>"; };
@@ -100,8 +100,13 @@
 		6BBC3F0919C6499500346896 /* MCOMessageView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MCOMessageView.mm; path = Wisp/MCOMessageView.mm; sourceTree = SOURCE_ROOT; };
 		6BBC3F0A19C6499500346896 /* MCOMessageViewScript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = MCOMessageViewScript.js; path = Wisp/MCOMessageViewScript.js; sourceTree = SOURCE_ROOT; };
 		6BCEFED019CD214E00F37B0C /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "Wisp/Vendors/mailcore2/build-mac/mailcore2.xcodeproj"; sourceTree = "<group>"; };
-		6BD6B0FC19C4E38500AD0554 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
-		6BD6B0FD19C4E38500AD0554 /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
+		6BCEFEF719CD2ED600F37B0C /* Mark Simonson - Proxima Nova Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Regular.otf"; sourceTree = "<group>"; };
+		6BCEFEF819CD2ED600F37B0C /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
+		6BCEFEF919CD2ED600F37B0C /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
+		6BCEFEFB19CD2ED600F37B0C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6BCEFEFC19CD2ED600F37B0C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6BCEFEFD19CD2ED600F37B0C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6BCEFEFE19CD2ED600F37B0C /* feather@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feather@2x.png"; sourceTree = "<group>"; };
 		6BE2B1E419C4EAC9001D1C1B /* feather@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "feather@2x.png"; path = "Images/feather@2x.png"; sourceTree = "<group>"; };
 		6BEA6F1919C5011200E2EAA7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		6BEA6F2019C5016400E2EAA7 /* Wisp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wisp.xcdatamodel; sourceTree = "<group>"; };
@@ -122,9 +127,6 @@
 		AB9EAE13170368F000D750C7 /* Wisp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wisp-Prefix.pch"; sourceTree = "<group>"; };
 		AB9EAE14170368F000D750C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB9EAE15170368F000D750C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AB9EAE17170368F000D750C7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
-		AB9EAE19170368F000D750C7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
-		AB9EAE1B170368F000D750C7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		AB9EAE1E170368F000D750C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AB9EAE20170368F000D750C7 /* WSPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSPMasterViewController.h; sourceTree = "<group>"; };
 		AB9EAE21170368F000D750C7 /* WSPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSPMasterViewController.m; sourceTree = "<group>"; };
@@ -183,6 +185,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		6BCEFEF619CD2ED600F37B0C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6BCEFEF719CD2ED600F37B0C /* Mark Simonson - Proxima Nova Regular.otf */,
+				6BCEFEF819CD2ED600F37B0C /* ProximaNova-Light.otf */,
+				6BCEFEF919CD2ED600F37B0C /* ProximaNova-Semibold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6BCEFEFA19CD2ED600F37B0C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6BCEFEFB19CD2ED600F37B0C /* Default-568h@2x.png */,
+				6BCEFEFC19CD2ED600F37B0C /* Default.png */,
+				6BCEFEFD19CD2ED600F37B0C /* Default@2x.png */,
+				6BCEFEFE19CD2ED600F37B0C /* feather@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		6BE7E85F19C02B03005B6BEB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,13 +236,9 @@
 		6BE7E86519C02B27005B6BEB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AB9EAE17170368F000D750C7 /* Default.png */,
-				AB9EAE19170368F000D750C7 /* Default@2x.png */,
-				AB9EAE1B170368F000D750C7 /* Default-568h@2x.png */,
+				6BCEFEF619CD2ED600F37B0C /* Fonts */,
+				6BCEFEFA19CD2ED600F37B0C /* Images */,
 				6BE2B1E419C4EAC9001D1C1B /* feather@2x.png */,
-				6BD6B0FC19C4E38500AD0554 /* ProximaNova-Light.otf */,
-				6BD6B0FD19C4E38500AD0554 /* ProximaNova-Semibold.otf */,
-				6B40976219C0A0E1004817C7 /* Mark Simonson - Proxima Nova Regular.otf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -469,16 +488,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6D71952178BB8B4008ED15F /* GTMOAuth2ViewTouch.xib in Resources */,
+				6BCEFF0219CD2ED600F37B0C /* Default-568h@2x.png in Resources */,
 				AB9EAE10170368F000D750C7 /* InfoPlist.strings in Resources */,
-				AB9EAE18170368F000D750C7 /* Default.png in Resources */,
-				6B40976319C0A0E1004817C7 /* Mark Simonson - Proxima Nova Regular.otf in Resources */,
-				AB9EAE1A170368F000D750C7 /* Default@2x.png in Resources */,
-				6BD6B0FE19C4E38500AD0554 /* ProximaNova-Light.otf in Resources */,
-				AB9EAE1C170368F000D750C7 /* Default-568h@2x.png in Resources */,
-				6BD6B0FF19C4E38500AD0554 /* ProximaNova-Semibold.otf in Resources */,
 				6BE2B1E519C4EAC9001D1C1B /* feather@2x.png in Resources */,
+				6BCEFF0419CD2ED600F37B0C /* Default@2x.png in Resources */,
+				6BCEFEFF19CD2ED600F37B0C /* Mark Simonson - Proxima Nova Regular.otf in Resources */,
 				AB9EAE1F170368F000D750C7 /* MainStoryboard.storyboard in Resources */,
+				6BCEFF0019CD2ED600F37B0C /* ProximaNova-Light.otf in Resources */,
+				6BCEFF0319CD2ED600F37B0C /* Default.png in Resources */,
 				AB9EAE3717036FD700D750C7 /* SettingsViewController.xib in Resources */,
+				6BCEFF0519CD2ED600F37B0C /* feather@2x.png in Resources */,
+				6BCEFF0119CD2ED600F37B0C /* ProximaNova-Semibold.otf in Resources */,
 				6BFB0D4F19C5756C00B58416 /* DateTools.bundle in Resources */,
 				6BBC3F0C19C6499500346896 /* MCOMessageViewScript.js in Resources */,
 			);

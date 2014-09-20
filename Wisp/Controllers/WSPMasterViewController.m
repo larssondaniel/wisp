@@ -47,6 +47,14 @@ static NSString *inboxInfoIdentifier = @"InboxStatusCell";
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
     self.coreDataService = [CoreDataService sharedService];
 
+    // Initialize pull to release.
+    self.refreshControl = [[UIRefreshControl alloc] init];
+    self.refreshControl.backgroundColor = [UIColor colorWithRed:0.235 green:0.240 blue:0.322 alpha:1.000];
+    self.refreshControl.tintColor = [UIColor whiteColor];
+    [self.refreshControl addTarget:self
+                            action:@selector(doReloadData)
+                  forControlEvents:UIControlEventValueChanged];
+
     //[self.tableView registerClass:[MCTTableViewCell class]
     //	   forCellReuseIdentifier:mailCellIdentifier];
 
@@ -62,6 +70,10 @@ static NSString *inboxInfoIdentifier = @"InboxStatusCell";
     } else {
         [self startLogin];
     }
+}
+
+- (void)doReloadData {
+    [self loadLastNMessages:NUMBER_OF_MESSAGES_TO_LOAD];
 }
 
 - (void)startLogin {
@@ -246,6 +258,7 @@ static NSString *inboxInfoIdentifier = @"InboxStatusCell";
             WSPMasterViewController *strongSelf = weakSelf;
             NSLog(@"fetched all messages.");
 
+            [self.refreshControl endRefreshing];
             self.isLoading = NO;
 
             NSSortDescriptor *sort =
