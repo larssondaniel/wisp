@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B40976319C0A0E1004817C7 /* Mark Simonson - Proxima Nova Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B40976219C0A0E1004817C7 /* Mark Simonson - Proxima Nova Regular.otf */; };
+		6B8147F919C51DEE00E6FAE9 /* NSDate+DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8147F819C51DEE00E6FAE9 /* NSDate+DateTools.m */; };
+		6BBC3F0B19C6499500346896 /* MCOMessageView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6BBC3F0919C6499500346896 /* MCOMessageView.mm */; };
+		6BBC3F0C19C6499500346896 /* MCOMessageViewScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 6BBC3F0A19C6499500346896 /* MCOMessageViewScript.js */; };
+		6BCEFEE419CD218800F37B0C /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCEFEDB19CD214E00F37B0C /* libMailCore-ios.a */; };
+		6BD6B0FE19C4E38500AD0554 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6B0FC19C4E38500AD0554 /* ProximaNova-Light.otf */; };
+		6BD6B0FF19C4E38500AD0554 /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6B0FD19C4E38500AD0554 /* ProximaNova-Semibold.otf */; };
+		6BE2B1E519C4EAC9001D1C1B /* feather@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE2B1E419C4EAC9001D1C1B /* feather@2x.png */; };
+		6BEA6F1A19C5011200E2EAA7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEA6F1919C5011200E2EAA7 /* CoreData.framework */; };
+		6BEA6F2419C505E000E2EAA7 /* CoreDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA6F2319C505E000E2EAA7 /* CoreDataService.m */; };
+		6BFB0D4F19C5756C00B58416 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6BFB0D4E19C5756B00B58416 /* DateTools.bundle */; };
+		AB665BCD17134336007F2151 /* FXKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = AB665BCB17134336007F2151 /* FXKeychain.m */; };
+		AB7BA4481713913F00104953 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7BA4471713913F00104953 /* CFNetwork.framework */; };
+		AB9EAE06170368F000D750C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9EAE05170368F000D750C7 /* UIKit.framework */; };
+		AB9EAE08170368F000D750C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9EAE07170368F000D750C7 /* Foundation.framework */; };
+		AB9EAE0A170368F000D750C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9EAE09170368F000D750C7 /* CoreGraphics.framework */; };
+		AB9EAE10170368F000D750C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB9EAE0E170368F000D750C7 /* InfoPlist.strings */; };
+		AB9EAE12170368F000D750C7 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB9EAE11170368F000D750C7 /* main.mm */; };
+		AB9EAE16170368F000D750C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9EAE15170368F000D750C7 /* AppDelegate.m */; };
+		AB9EAE18170368F000D750C7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9EAE17170368F000D750C7 /* Default.png */; };
+		AB9EAE1A170368F000D750C7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9EAE19170368F000D750C7 /* Default@2x.png */; };
+		AB9EAE1C170368F000D750C7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9EAE1B170368F000D750C7 /* Default-568h@2x.png */; };
+		AB9EAE1F170368F000D750C7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9EAE1D170368F000D750C7 /* MainStoryboard.storyboard */; };
+		AB9EAE22170368F000D750C7 /* WSPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9EAE21170368F000D750C7 /* WSPMasterViewController.m */; };
+		AB9EAE3617036FD700D750C7 /* WSPSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9EAE3417036FD600D750C7 /* WSPSettingsViewController.m */; };
+		AB9EAE3717036FD700D750C7 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB9EAE3517036FD700D750C7 /* SettingsViewController.xib */; };
+		AB9EAE40170374D900D750C7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9EAE3F170374D900D750C7 /* Security.framework */; };
+		ABE4026B173F3FCE007F1FB3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE4026A173F3FCE007F1FB3 /* ImageIO.framework */; };
+		B12AAA3517322654003551C7 /* MCTMsgViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B12AAA3217322654003551C7 /* MCTMsgViewController.mm */; };
+		C6D7194D178BB8B4008ED15F /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D71939178BA812008ED15F /* GTMHTTPFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C6D7194E178BB8B4008ED15F /* GTMHTTPFetchHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D7193B178BA812008ED15F /* GTMHTTPFetchHistory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C6D7194F178BB8B4008ED15F /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D7193E178BA812008ED15F /* GTMOAuth2Authentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C6D71950178BB8B4008ED15F /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D71940178BA812008ED15F /* GTMOAuth2SignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C6D71951178BB8B4008ED15F /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D71947178BA812008ED15F /* GTMOAuth2ViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C6D71952178BB8B4008ED15F /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D71948178BA812008ED15F /* GTMOAuth2ViewTouch.xib */; };
+		C6D71954178BB91E008ED15F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D71953178BB91E008ED15F /* SystemConfiguration.framework */; };
+		DA9AD477179331A600743873 /* WSPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9AD476179331A600743873 /* WSPTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BCEFED819CD214E00F37B0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BCEFED019CD214E00F37B0C /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C64EA537169E772200778456;
+			remoteInfo = "static mailcore2 osx";
+		};
+		6BCEFEDA19CD214E00F37B0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BCEFED019CD214E00F37B0C /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6BA2C191705F4E6003F0E9E;
+			remoteInfo = "static mailcore2 ios";
+		};
+		6BCEFEDC19CD214E00F37B0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BCEFED019CD214E00F37B0C /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C64EA78C169F259200778456;
+			remoteInfo = tests;
+		};
+		6BCEFEDE19CD214E00F37B0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BCEFED019CD214E00F37B0C /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A81B911706840C00882C15;
+			remoteInfo = "test-ios";
+		};
+		6BCEFEE019CD214E00F37B0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BCEFED019CD214E00F37B0C /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6BD288D170BD71100A91AC1;
+			remoteInfo = "mailcore osx";
+		};
+		6BCEFEE219CD216D00F37B0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BCEFED019CD214E00F37B0C /* mailcore2.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C6BA2B091705F4E6003F0E9E;
+			remoteInfo = "static mailcore2 ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B40976219C0A0E1004817C7 /* Mark Simonson - Proxima Nova Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Regular.otf"; sourceTree = "<group>"; };
+		6B8147F719C51DEE00E6FAE9 /* NSDate+DateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateTools.h"; sourceTree = "<group>"; };
+		6B8147F819C51DEE00E6FAE9 /* NSDate+DateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateTools.m"; sourceTree = "<group>"; };
+		6BB798A019C5210C006BC672 /* DTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTConstants.h; sourceTree = "<group>"; };
+		6BBC3F0819C6499500346896 /* MCOMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCOMessageView.h; path = Wisp/MCOMessageView.h; sourceTree = SOURCE_ROOT; };
+		6BBC3F0919C6499500346896 /* MCOMessageView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MCOMessageView.mm; path = Wisp/MCOMessageView.mm; sourceTree = SOURCE_ROOT; };
+		6BBC3F0A19C6499500346896 /* MCOMessageViewScript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = MCOMessageViewScript.js; path = Wisp/MCOMessageViewScript.js; sourceTree = SOURCE_ROOT; };
+		6BCEFED019CD214E00F37B0C /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "Wisp/Vendors/mailcore2/build-mac/mailcore2.xcodeproj"; sourceTree = "<group>"; };
+		6BD6B0FC19C4E38500AD0554 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
+		6BD6B0FD19C4E38500AD0554 /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
+		6BE2B1E419C4EAC9001D1C1B /* feather@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "feather@2x.png"; path = "Images/feather@2x.png"; sourceTree = "<group>"; };
+		6BEA6F1919C5011200E2EAA7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6BEA6F2019C5016400E2EAA7 /* Wisp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wisp.xcdatamodel; sourceTree = "<group>"; };
+		6BEA6F2219C505E000E2EAA7 /* CoreDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataService.h; sourceTree = "<group>"; };
+		6BEA6F2319C505E000E2EAA7 /* CoreDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataService.m; sourceTree = "<group>"; };
+		6BFB0D4E19C5756B00B58416 /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DateTools.bundle; sourceTree = "<group>"; };
+		AB665BCA17134336007F2151 /* FXKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXKeychain.h; sourceTree = "<group>"; };
+		AB665BCB17134336007F2151 /* FXKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXKeychain.m; sourceTree = "<group>"; };
+		AB665BCC17134336007F2151 /* FXKeychain_LICENCE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = FXKeychain_LICENCE.md; sourceTree = "<group>"; };
+		AB7BA4471713913F00104953 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AB9EAE02170368F000D750C7 /* Wisp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wisp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9EAE05170368F000D750C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB9EAE07170368F000D750C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB9EAE09170368F000D750C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB9EAE0D170368F000D750C7 /* Wisp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wisp-Info.plist"; sourceTree = "<group>"; };
+		AB9EAE0F170368F000D750C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB9EAE11170368F000D750C7 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		AB9EAE13170368F000D750C7 /* Wisp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wisp-Prefix.pch"; sourceTree = "<group>"; };
+		AB9EAE14170368F000D750C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB9EAE15170368F000D750C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB9EAE17170368F000D750C7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		AB9EAE19170368F000D750C7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		AB9EAE1B170368F000D750C7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		AB9EAE1E170368F000D750C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AB9EAE20170368F000D750C7 /* WSPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSPMasterViewController.h; sourceTree = "<group>"; };
+		AB9EAE21170368F000D750C7 /* WSPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSPMasterViewController.m; sourceTree = "<group>"; };
+		AB9EAE3317036FD600D750C7 /* WSPSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSPSettingsViewController.h; path = ../WSPSettingsViewController.h; sourceTree = "<group>"; };
+		AB9EAE3417036FD600D750C7 /* WSPSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSPSettingsViewController.m; path = ../WSPSettingsViewController.m; sourceTree = "<group>"; };
+		AB9EAE3517036FD700D750C7 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = ../SettingsViewController.xib; sourceTree = "<group>"; };
+		AB9EAE3F170374D900D750C7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		ABE4026A173F3FCE007F1FB3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B12AAA3117322654003551C7 /* MCTMsgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTMsgViewController.h; sourceTree = "<group>"; };
+		B12AAA3217322654003551C7 /* MCTMsgViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MCTMsgViewController.mm; sourceTree = "<group>"; };
+		C6D71938178BA812008ED15F /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		C6D71939178BA812008ED15F /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		C6D7193A178BA812008ED15F /* GTMHTTPFetchHistory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetchHistory.h; sourceTree = "<group>"; };
+		C6D7193B178BA812008ED15F /* GTMHTTPFetchHistory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetchHistory.m; sourceTree = "<group>"; };
+		C6D7193D178BA812008ED15F /* GTMOAuth2Authentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2Authentication.h; sourceTree = "<group>"; };
+		C6D7193E178BA812008ED15F /* GTMOAuth2Authentication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2Authentication.m; sourceTree = "<group>"; };
+		C6D7193F178BA812008ED15F /* GTMOAuth2SignIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2SignIn.h; sourceTree = "<group>"; };
+		C6D71940178BA812008ED15F /* GTMOAuth2SignIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2SignIn.m; sourceTree = "<group>"; };
+		C6D71946178BA812008ED15F /* GTMOAuth2ViewControllerTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2ViewControllerTouch.h; sourceTree = "<group>"; };
+		C6D71947178BA812008ED15F /* GTMOAuth2ViewControllerTouch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2ViewControllerTouch.m; sourceTree = "<group>"; };
+		C6D71948178BA812008ED15F /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		C6D71953178BB91E008ED15F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DA9AD475179331A600743873 /* WSPTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPTableViewCell.h; sourceTree = "<group>"; };
+		DA9AD476179331A600743873 /* WSPTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB9EADFF170368F000D750C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCEFEE419CD218800F37B0C /* libMailCore-ios.a in Frameworks */,
+				6BEA6F1A19C5011200E2EAA7 /* CoreData.framework in Frameworks */,
+				C6D71954178BB91E008ED15F /* SystemConfiguration.framework in Frameworks */,
+				ABE4026B173F3FCE007F1FB3 /* ImageIO.framework in Frameworks */,
+				AB9EAE40170374D900D750C7 /* Security.framework in Frameworks */,
+				AB9EAE06170368F000D750C7 /* UIKit.framework in Frameworks */,
+				AB9EAE08170368F000D750C7 /* Foundation.framework in Frameworks */,
+				AB9EAE0A170368F000D750C7 /* CoreGraphics.framework in Frameworks */,
+				AB7BA4481713913F00104953 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BCEFED119CD214E00F37B0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BCEFED919CD214E00F37B0C /* libMailCore.a */,
+				6BCEFEDB19CD214E00F37B0C /* libMailCore-ios.a */,
+				6BCEFEDD19CD214E00F37B0C /* tests */,
+				6BCEFEDF19CD214E00F37B0C /* test-ios.app */,
+				6BCEFEE119CD214E00F37B0C /* MailCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BE7E85F19C02B03005B6BEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB9EAE20170368F000D750C7 /* WSPMasterViewController.h */,
+				AB9EAE21170368F000D750C7 /* WSPMasterViewController.m */,
+				B12AAA3117322654003551C7 /* MCTMsgViewController.h */,
+				B12AAA3217322654003551C7 /* MCTMsgViewController.mm */,
+				AB9EAE3317036FD600D750C7 /* WSPSettingsViewController.h */,
+				AB9EAE3417036FD600D750C7 /* WSPSettingsViewController.m */,
+				AB9EAE3517036FD700D750C7 /* SettingsViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6BE7E86419C02B16005B6BEB /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				6BBC3F0819C6499500346896 /* MCOMessageView.h */,
+				6BBC3F0919C6499500346896 /* MCOMessageView.mm */,
+				6BBC3F0A19C6499500346896 /* MCOMessageViewScript.js */,
+				C6D71936178BA812008ED15F /* gtm-oauth2 */,
+				6BFB0D5619C578FE00B58416 /* FXKeychain */,
+				6BFB0D5519C578E600B58416 /* DateTools */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		6BE7E86519C02B27005B6BEB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB9EAE17170368F000D750C7 /* Default.png */,
+				AB9EAE19170368F000D750C7 /* Default@2x.png */,
+				AB9EAE1B170368F000D750C7 /* Default-568h@2x.png */,
+				6BE2B1E419C4EAC9001D1C1B /* feather@2x.png */,
+				6BD6B0FC19C4E38500AD0554 /* ProximaNova-Light.otf */,
+				6BD6B0FD19C4E38500AD0554 /* ProximaNova-Semibold.otf */,
+				6B40976219C0A0E1004817C7 /* Mark Simonson - Proxima Nova Regular.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6BE7E86619C02B35005B6BEB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6BEA6F1F19C5016400E2EAA7 /* Wisp.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6BE7E86719C02B41005B6BEB /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6BEA6F2219C505E000E2EAA7 /* CoreDataService.h */,
+				6BEA6F2319C505E000E2EAA7 /* CoreDataService.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		6BE7E86819C02B50005B6BEB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AB9EAE11170368F000D750C7 /* main.mm */,
+				AB9EAE14170368F000D750C7 /* AppDelegate.h */,
+				AB9EAE15170368F000D750C7 /* AppDelegate.m */,
+				AB9EAE0D170368F000D750C7 /* Wisp-Info.plist */,
+				AB9EAE0E170368F000D750C7 /* InfoPlist.strings */,
+				AB9EAE13170368F000D750C7 /* Wisp-Prefix.pch */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6BFB0D5519C578E600B58416 /* DateTools */ = {
+			isa = PBXGroup;
+			children = (
+				6BFB0D4E19C5756B00B58416 /* DateTools.bundle */,
+				6B8147F719C51DEE00E6FAE9 /* NSDate+DateTools.h */,
+				6B8147F819C51DEE00E6FAE9 /* NSDate+DateTools.m */,
+				6BB798A019C5210C006BC672 /* DTConstants.h */,
+			);
+			path = DateTools;
+			sourceTree = "<group>";
+		};
+		6BFB0D5619C578FE00B58416 /* FXKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				AB665BCA17134336007F2151 /* FXKeychain.h */,
+				AB665BCB17134336007F2151 /* FXKeychain.m */,
+				AB665BCC17134336007F2151 /* FXKeychain_LICENCE.md */,
+			);
+			path = FXKeychain;
+			sourceTree = "<group>";
+		};
+		AB9EADF9170368F000D750C7 = {
+			isa = PBXGroup;
+			children = (
+				6BCEFED019CD214E00F37B0C /* mailcore2.xcodeproj */,
+				AB9EAE0B170368F000D750C7 /* Wisp */,
+				AB9EAE04170368F000D750C7 /* Frameworks */,
+				AB9EAE03170368F000D750C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB9EAE03170368F000D750C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB9EAE02170368F000D750C7 /* Wisp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB9EAE04170368F000D750C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BEA6F1919C5011200E2EAA7 /* CoreData.framework */,
+				C6D71953178BB91E008ED15F /* SystemConfiguration.framework */,
+				ABE4026A173F3FCE007F1FB3 /* ImageIO.framework */,
+				AB7BA4471713913F00104953 /* CFNetwork.framework */,
+				AB9EAE3F170374D900D750C7 /* Security.framework */,
+				AB9EAE05170368F000D750C7 /* UIKit.framework */,
+				AB9EAE07170368F000D750C7 /* Foundation.framework */,
+				AB9EAE09170368F000D750C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB9EAE0B170368F000D750C7 /* Wisp */ = {
+			isa = PBXGroup;
+			children = (
+				6BE7E86819C02B50005B6BEB /* Application */,
+				6BE7E86719C02B41005B6BEB /* Library */,
+				6BE7E86619C02B35005B6BEB /* Models */,
+				6BE7E86519C02B27005B6BEB /* Resources */,
+				6BE7E86419C02B16005B6BEB /* Vendors */,
+				6BE7E85F19C02B03005B6BEB /* Controllers */,
+				AB9EAE1D170368F000D750C7 /* MainStoryboard.storyboard */,
+				DA9AD475179331A600743873 /* WSPTableViewCell.h */,
+				DA9AD476179331A600743873 /* WSPTableViewCell.m */,
+			);
+			path = Wisp;
+			sourceTree = "<group>";
+		};
+		C6D71936178BA812008ED15F /* gtm-oauth2 */ = {
+			isa = PBXGroup;
+			children = (
+				C6D71937178BA812008ED15F /* HTTPFetcher */,
+				C6D7193C178BA812008ED15F /* Source */,
+			);
+			path = "gtm-oauth2";
+			sourceTree = "<group>";
+		};
+		C6D71937178BA812008ED15F /* HTTPFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				C6D71938178BA812008ED15F /* GTMHTTPFetcher.h */,
+				C6D71939178BA812008ED15F /* GTMHTTPFetcher.m */,
+				C6D7193A178BA812008ED15F /* GTMHTTPFetchHistory.h */,
+				C6D7193B178BA812008ED15F /* GTMHTTPFetchHistory.m */,
+			);
+			path = HTTPFetcher;
+			sourceTree = "<group>";
+		};
+		C6D7193C178BA812008ED15F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C6D7193D178BA812008ED15F /* GTMOAuth2Authentication.h */,
+				C6D7193E178BA812008ED15F /* GTMOAuth2Authentication.m */,
+				C6D7193F178BA812008ED15F /* GTMOAuth2SignIn.h */,
+				C6D71940178BA812008ED15F /* GTMOAuth2SignIn.m */,
+				C6D71945178BA812008ED15F /* Touch */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C6D71945178BA812008ED15F /* Touch */ = {
+			isa = PBXGroup;
+			children = (
+				C6D71946178BA812008ED15F /* GTMOAuth2ViewControllerTouch.h */,
+				C6D71947178BA812008ED15F /* GTMOAuth2ViewControllerTouch.m */,
+				C6D71948178BA812008ED15F /* GTMOAuth2ViewTouch.xib */,
+			);
+			path = Touch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB9EAE01170368F000D750C7 /* Wisp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9EAE28170368F000D750C7 /* Build configuration list for PBXNativeTarget "Wisp" */;
+			buildPhases = (
+				AB9EADFE170368F000D750C7 /* Sources */,
+				AB9EADFF170368F000D750C7 /* Frameworks */,
+				AB9EAE00170368F000D750C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BCEFEE319CD216D00F37B0C /* PBXTargetDependency */,
+			);
+			name = Wisp;
+			productName = "iOS UI Test";
+			productReference = AB9EAE02170368F000D750C7 /* Wisp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB9EADFA170368F000D750C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WP;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Daniel Larsson";
+				TargetAttributes = {
+					AB9EAE01170368F000D750C7 = {
+						DevelopmentTeam = VM4D468R3G;
+					};
+				};
+			};
+			buildConfigurationList = AB9EADFD170368F000D750C7 /* Build configuration list for PBXProject "Wisp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB9EADF9170368F000D750C7;
+			productRefGroup = AB9EAE03170368F000D750C7 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6BCEFED119CD214E00F37B0C /* Products */;
+					ProjectRef = 6BCEFED019CD214E00F37B0C /* mailcore2.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AB9EAE01170368F000D750C7 /* Wisp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6BCEFED919CD214E00F37B0C /* libMailCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMailCore.a;
+			remoteRef = 6BCEFED819CD214E00F37B0C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6BCEFEDB19CD214E00F37B0C /* libMailCore-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMailCore-ios.a";
+			remoteRef = 6BCEFEDA19CD214E00F37B0C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6BCEFEDD19CD214E00F37B0C /* tests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = tests;
+			remoteRef = 6BCEFEDC19CD214E00F37B0C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6BCEFEDF19CD214E00F37B0C /* test-ios.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "test-ios.app";
+			remoteRef = 6BCEFEDE19CD214E00F37B0C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6BCEFEE119CD214E00F37B0C /* MailCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MailCore.framework;
+			remoteRef = 6BCEFEE019CD214E00F37B0C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB9EAE00170368F000D750C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D71952178BB8B4008ED15F /* GTMOAuth2ViewTouch.xib in Resources */,
+				AB9EAE10170368F000D750C7 /* InfoPlist.strings in Resources */,
+				AB9EAE18170368F000D750C7 /* Default.png in Resources */,
+				6B40976319C0A0E1004817C7 /* Mark Simonson - Proxima Nova Regular.otf in Resources */,
+				AB9EAE1A170368F000D750C7 /* Default@2x.png in Resources */,
+				6BD6B0FE19C4E38500AD0554 /* ProximaNova-Light.otf in Resources */,
+				AB9EAE1C170368F000D750C7 /* Default-568h@2x.png in Resources */,
+				6BD6B0FF19C4E38500AD0554 /* ProximaNova-Semibold.otf in Resources */,
+				6BE2B1E519C4EAC9001D1C1B /* feather@2x.png in Resources */,
+				AB9EAE1F170368F000D750C7 /* MainStoryboard.storyboard in Resources */,
+				AB9EAE3717036FD700D750C7 /* SettingsViewController.xib in Resources */,
+				6BFB0D4F19C5756C00B58416 /* DateTools.bundle in Resources */,
+				6BBC3F0C19C6499500346896 /* MCOMessageViewScript.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB9EADFE170368F000D750C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEA6F2419C505E000E2EAA7 /* CoreDataService.m in Sources */,
+				AB9EAE12170368F000D750C7 /* main.mm in Sources */,
+				C6D7194E178BB8B4008ED15F /* GTMHTTPFetchHistory.m in Sources */,
+				AB9EAE16170368F000D750C7 /* AppDelegate.m in Sources */,
+				AB9EAE22170368F000D750C7 /* WSPMasterViewController.m in Sources */,
+				AB9EAE3617036FD700D750C7 /* WSPSettingsViewController.m in Sources */,
+				C6D7194D178BB8B4008ED15F /* GTMHTTPFetcher.m in Sources */,
+				6BBC3F0B19C6499500346896 /* MCOMessageView.mm in Sources */,
+				C6D71951178BB8B4008ED15F /* GTMOAuth2ViewControllerTouch.m in Sources */,
+				6B8147F919C51DEE00E6FAE9 /* NSDate+DateTools.m in Sources */,
+				AB665BCD17134336007F2151 /* FXKeychain.m in Sources */,
+				C6D71950178BB8B4008ED15F /* GTMOAuth2SignIn.m in Sources */,
+				C6D7194F178BB8B4008ED15F /* GTMOAuth2Authentication.m in Sources */,
+				B12AAA3517322654003551C7 /* MCTMsgViewController.mm in Sources */,
+				DA9AD477179331A600743873 /* WSPTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BCEFEE319CD216D00F37B0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "static mailcore2 ios";
+			targetProxy = 6BCEFEE219CD216D00F37B0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB9EAE0E170368F000D750C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB9EAE0F170368F000D750C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AB9EAE1D170368F000D750C7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB9EAE1E170368F000D750C7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB9EAE26170368F000D750C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB9EAE27170368F000D750C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB9EAE29170368F000D750C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wisp/Application/Wisp-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Wisp/Application/Wisp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = (
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-licudata",
+					"-licui18n",
+					"-licuuc",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-all_load",
+					"-ltidy",
+					"-lc++",
+					"-lz",
+					"-licucore",
+				);
+				PRODUCT_NAME = Wisp;
+				PROVISIONING_PROFILE = "8b60508f-0764-4b80-a9c2-b57313aa227d";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB9EAE2A170368F000D750C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wisp/Application/Wisp-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Wisp/Application/Wisp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = (
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-licudata",
+					"-licui18n",
+					"-licuuc",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-all_load",
+					"-ltidy",
+					"-lc++",
+					"-lz",
+					"-licucore",
+				);
+				PRODUCT_NAME = Wisp;
+				PROVISIONING_PROFILE = "8b60508f-0764-4b80-a9c2-b57313aa227d";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB9EADFD170368F000D750C7 /* Build configuration list for PBXProject "Wisp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9EAE26170368F000D750C7 /* Debug */,
+				AB9EAE27170368F000D750C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB9EAE28170368F000D750C7 /* Build configuration list for PBXNativeTarget "Wisp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9EAE29170368F000D750C7 /* Debug */,
+				AB9EAE2A170368F000D750C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6BEA6F1F19C5016400E2EAA7 /* Wisp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6BEA6F2019C5016400E2EAA7 /* Wisp.xcdatamodel */,
+			);
+			currentVersion = 6BEA6F2019C5016400E2EAA7 /* Wisp.xcdatamodel */;
+			name = Wisp.xcdatamodeld;
+			path = ../Resources/Wisp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB9EADFA170368F000D750C7 /* Project object */;
+}
