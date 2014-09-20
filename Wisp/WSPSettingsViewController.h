@@ -29,6 +29,7 @@ extern NSString *const OAuthEnabledKey;
 
 @end
 
-@protocol SettingsViewControllerDelegate<NSObject>
-- (void)settingsViewControllerFinished:(SettingsViewController *)viewController;
+@protocol WSPSettingsViewControllerDelegate<NSObject>
+- (void)settingsViewControllerFinished:
+        (WSPSettingsViewController *)viewController;
 @end

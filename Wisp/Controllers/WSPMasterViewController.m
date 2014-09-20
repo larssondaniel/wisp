@@ -391,8 +391,8 @@ static NSString *inboxInfoIdentifier = @"InboxStatusCell";
 - (void)showSettingsViewController:(id)sender {
     [self.imapMessagesFetchOp cancel];
 
-    SettingsViewController *settingsViewController =
-        [[SettingsViewController alloc] initWithNibName:nil bundle:nil];
+    WSPSettingsViewController *settingsViewController =
+        [[WSPSettingsViewController alloc] initWithNibName:nil bundle:nil];
     settingsViewController.delegate = self;
     UINavigationController *nav = [[UINavigationController alloc]
         initWithRootViewController:settingsViewController];
@@ -400,7 +400,7 @@ static NSString *inboxInfoIdentifier = @"InboxStatusCell";
 }
 
 - (void)settingsViewControllerFinished:
-            (SettingsViewController *)viewController {
+            (WSPSettingsViewController *)viewController {
     [self dismissViewControllerAnimated:YES completion:nil];
 
     NSString *username =

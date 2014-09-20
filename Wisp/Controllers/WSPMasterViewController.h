@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SettingsViewController.h"
+#import "WSPSettingsViewController.h"
 
-@interface WSPMasterViewController : UITableViewController <SettingsViewControllerDelegate>
+@interface WSPMasterViewController
+    : UITableViewController<WSPSettingsViewControllerDelegate>
 
 - (IBAction)showSettingsViewController:(id)sender;
 
