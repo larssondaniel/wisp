@@ -18,6 +18,7 @@
 		6BCEFF0319CD2ED600F37B0C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BCEFEFC19CD2ED600F37B0C /* Default.png */; };
 		6BCEFF0419CD2ED600F37B0C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BCEFEFD19CD2ED600F37B0C /* Default@2x.png */; };
 		6BCEFF0519CD2ED600F37B0C /* feather@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BCEFEFE19CD2ED600F37B0C /* feather@2x.png */; };
+		6BCEFF0B19CD395000F37B0C /* WSPMailboxesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCEFF0A19CD395000F37B0C /* WSPMailboxesViewController.m */; };
 		6BE2B1E519C4EAC9001D1C1B /* feather@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE2B1E419C4EAC9001D1C1B /* feather@2x.png */; };
 		6BEA6F1A19C5011200E2EAA7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEA6F1919C5011200E2EAA7 /* CoreData.framework */; };
 		6BEA6F2419C505E000E2EAA7 /* CoreDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA6F2319C505E000E2EAA7 /* CoreDataService.m */; };
@@ -107,6 +108,8 @@
 		6BCEFEFC19CD2ED600F37B0C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6BCEFEFD19CD2ED600F37B0C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6BCEFEFE19CD2ED600F37B0C /* feather@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feather@2x.png"; sourceTree = "<group>"; };
+		6BCEFF0919CD395000F37B0C /* WSPMailboxesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPMailboxesViewController.h; sourceTree = "<group>"; };
+		6BCEFF0A19CD395000F37B0C /* WSPMailboxesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPMailboxesViewController.m; sourceTree = "<group>"; };
 		6BE2B1E419C4EAC9001D1C1B /* feather@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "feather@2x.png"; path = "Images/feather@2x.png"; sourceTree = "<group>"; };
 		6BEA6F1919C5011200E2EAA7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		6BEA6F2019C5016400E2EAA7 /* Wisp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wisp.xcdatamodel; sourceTree = "<group>"; };
@@ -215,6 +218,8 @@
 				B12AAA3217322654003551C7 /* MCTMsgViewController.mm */,
 				AB9EAE3317036FD600D750C7 /* WSPSettingsViewController.h */,
 				AB9EAE3417036FD600D750C7 /* WSPSettingsViewController.m */,
+				6BCEFF0919CD395000F37B0C /* WSPMailboxesViewController.h */,
+				6BCEFF0A19CD395000F37B0C /* WSPMailboxesViewController.m */,
 				AB9EAE3517036FD700D750C7 /* SettingsViewController.xib */,
 			);
 			path = Controllers;
@@ -515,6 +520,7 @@
 				AB9EAE12170368F000D750C7 /* main.mm in Sources */,
 				C6D7194E178BB8B4008ED15F /* GTMHTTPFetchHistory.m in Sources */,
 				AB9EAE16170368F000D750C7 /* AppDelegate.m in Sources */,
+				6BCEFF0B19CD395000F37B0C /* WSPMailboxesViewController.m in Sources */,
 				AB9EAE22170368F000D750C7 /* WSPMasterViewController.m in Sources */,
 				AB9EAE3617036FD700D750C7 /* WSPSettingsViewController.m in Sources */,
 				C6D7194D178BB8B4008ED15F /* GTMHTTPFetcher.m in Sources */,

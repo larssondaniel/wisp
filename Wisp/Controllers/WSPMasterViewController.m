@@ -49,7 +49,8 @@ static NSString *inboxInfoIdentifier = @"InboxStatusCell";
 
     // Initialize pull to release.
     self.refreshControl = [[UIRefreshControl alloc] init];
-    self.refreshControl.backgroundColor = [UIColor colorWithRed:0.235 green:0.240 blue:0.322 alpha:1.000];
+    self.refreshControl.backgroundColor =
+        [UIColor colorWithRed:0.235 green:0.240 blue:0.322 alpha:1.000];
     self.refreshControl.tintColor = [UIColor whiteColor];
     [self.refreshControl addTarget:self
                             action:@selector(doReloadData)
@@ -314,6 +315,13 @@ static NSString *inboxInfoIdentifier = @"InboxStatusCell";
                     reuseIdentifier:mailCellIdentifier];
             }
             MCOIMAPMessage *message = self.messages[indexPath.row];
+
+            if (message.flags == 0) {
+                cell.backgroundColor = [UIColor colorWithRed:0.894
+                                                       green:0.914
+                                                        blue:0.973
+                                                       alpha:1.000];
+            }
 
             cell.authorLabel.text = message.header.from.displayName;
             cell.titleLabel.text = message.header.subject;
